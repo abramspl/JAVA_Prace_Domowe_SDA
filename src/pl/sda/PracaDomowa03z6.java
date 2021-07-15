@@ -11,9 +11,9 @@ public class PracaDomowa03z6 {
         int b = scanner.nextInt();
 
         if (a < 100){
-            System.out.println("'''\n\t " + a + "\n+\t" + b +"\n-------\n\t" + (a+b) + "\n'''" );
+            System.out.println("\n\t " + a + "\n+\t" + b +"\n-------\n\t" + (a+b) + "\n" );
         } else {
-            System.out.println("'''\n\t" + a + "\n+\t" + b +"\n-------\n\t" + (a+b) + "\n'''" );
+            System.out.println("\n\t" + a + "\n+\t" + b +"\n-------\n\t" + (a+b) + "\n" );
         }
     }
 }
